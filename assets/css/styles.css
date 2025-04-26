@@ -59,7 +59,12 @@
     --smaller-font-size: 0.813rem;
   }
 }
-
+canvas {
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+}
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
